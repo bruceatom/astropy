@@ -171,7 +171,7 @@ def _comparison_decorator(pyfunc: Callable[..., Any]) -> Callable[..., Any]:
 
     format : bool or None or str or array-like thereof, optional keyword-only
         Whether to allow the arguments to be converted to a |Cosmology|. This
-        allows, e.g. a |Table| to be given instead a |Cosmology|. `False`
+        allows, e.g. a |Table| to be given instead of a |Cosmology|. `False`
         (default) will not allow conversion. `True` or `None` will, and will use
         the auto-identification to try to infer the correct format. A `str` is
         assumed to be the correct format to use when converting. Note ``format``
@@ -220,7 +220,7 @@ def cosmology_equal(
 
     format : bool or None or str or tuple thereof, optional keyword-only
         Whether to allow the arguments to be converted to a |Cosmology|. This
-        allows, e.g. a |Table| to be given instead a |Cosmology|. `False`
+        allows, e.g. a |Table| to be given instead of a |Cosmology|. `False`
         (default) will not allow conversion. `True` or `None` will, and will use
         the auto-identification to try to infer the correct format. A `str` is
         assumed to be the correct format to use when converting. Note ``format``
@@ -342,7 +342,7 @@ def _cosmology_not_equal(
 
     format : bool or None or str or tuple thereof, optional keyword-only
         Whether to allow the arguments to be converted to a |Cosmology|. This
-        allows, e.g. a |Table| to be given instead a Cosmology. `False`
+        allows, e.g. a |Table| to be given instead of a Cosmology. `False`
         (default) will not allow conversion. `True` or `None` will, and will use
         the auto-identification to try to infer the correct format. A `str` is
         assumed to be the correct format to use when converting. ``format`` is
